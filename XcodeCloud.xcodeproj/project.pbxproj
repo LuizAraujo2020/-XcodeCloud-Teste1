@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6FB6076828E1D001007A834D /* XcodeCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB6076828E1D001007A834D /* XcodeCloud12313.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCloud12313.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB6076B28E1D001007A834D /* XcodeCloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeCloudApp.swift; sourceTree = "<group>"; };
 		6FB6076D28E1D001007A834D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6FB6076F28E1D003007A834D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		6FB6076928E1D001007A834D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6FB6076828E1D001007A834D /* XcodeCloud.app */,
+				6FB6076828E1D001007A834D /* XcodeCloud12313.app */,
 				6FB6077E28E1D003007A834D /* XcodeCloudTests.xctest */,
 				6FB6078828E1D003007A834D /* XcodeCloudUITests.xctest */,
 			);
@@ -138,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6FB6076728E1D001007A834D /* XcodeCloud */ = {
+		6FB6076728E1D001007A834D /* XcodeCloud12313 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FB6079228E1D003007A834D /* Build configuration list for PBXNativeTarget "XcodeCloud" */;
+			buildConfigurationList = 6FB6079228E1D003007A834D /* Build configuration list for PBXNativeTarget "XcodeCloud12313" */;
 			buildPhases = (
 				6FB6076428E1D001007A834D /* Sources */,
 				6FB6076528E1D001007A834D /* Frameworks */,
@@ -150,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = XcodeCloud;
+			name = XcodeCloud12313;
 			productName = XcodeCloud;
-			productReference = 6FB6076828E1D001007A834D /* XcodeCloud.app */;
+			productReference = 6FB6076828E1D001007A834D /* XcodeCloud12313.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6FB6077D28E1D003007A834D /* XcodeCloudTests */ = {
@@ -227,7 +227,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6FB6076728E1D001007A834D /* XcodeCloud */,
+				6FB6076728E1D001007A834D /* XcodeCloud12313 */,
 				6FB6077D28E1D003007A834D /* XcodeCloudTests */,
 				6FB6078728E1D003007A834D /* XcodeCloudUITests */,
 			);
@@ -294,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		6FB6078028E1D003007A834D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FB6076728E1D001007A834D /* XcodeCloud */;
+			target = 6FB6076728E1D001007A834D /* XcodeCloud12313 */;
 			targetProxy = 6FB6077F28E1D003007A834D /* PBXContainerItemProxy */;
 		};
 		6FB6078A28E1D003007A834D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FB6076728E1D001007A834D /* XcodeCloud */;
+			target = 6FB6076728E1D001007A834D /* XcodeCloud12313 */;
 			targetProxy = 6FB6078928E1D003007A834D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,6 +430,7 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = XcodeCloudTest2022Luiz;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +460,7 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = XcodeCloudTest2022Luiz;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -482,6 +484,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K328B98U3F;
@@ -502,6 +505,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K328B98U3F;
@@ -565,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FB6079228E1D003007A834D /* Build configuration list for PBXNativeTarget "XcodeCloud" */ = {
+		6FB6079228E1D003007A834D /* Build configuration list for PBXNativeTarget "XcodeCloud12313" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FB6079328E1D003007A834D /* Debug */,
